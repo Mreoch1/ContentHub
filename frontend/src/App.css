@@ -5,3 +5,39 @@
   overflow: hidden;
   padding: 0 2rem;
 }
+
+/* Add these styles to your existing App.css */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #f0f0f0;
+}
+
+.navbar.dark {
+  background-color: #333;
+  color: #fff;
+}
+
+.navbar ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  margin-right: 1rem;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.navbar button {
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
